@@ -2,8 +2,8 @@
 
 # Expectation violation: A bibliometric review
 
-This repository contains supplemental materials for our paper Expectation violation:
-The scientific landscape of expectation violation research as revealed by bibliometric network analyses
+This repository contains supplemental materials for our paper **Expectation violation:
+The scientific landscape of expectation violation research as revealed by bibliometric network analyses**
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
