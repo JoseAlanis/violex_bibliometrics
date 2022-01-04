@@ -1,0 +1,392 @@
+---
+title: "Expectation violation review"
+subtitle: "Descriptive analyses"
+author: "José C. García Alanis"
+date:  "`r Sys.Date()`"
+output: html_document
+---
+
+Created with `r R.version.string`
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# set working directory
+path <- dirname(rstudioapi::getActiveDocumentContext()$path)
+setwd(path)
+
+```
+
+
+# Seu up environment
+
+```{r, message = FALSE}
+# load necessary packages
+require(dplyr)
+require(bibliometrix)
+
+# options for plotting
+windowsFonts(Mukta=windowsFont("Mukta"))
+require(ggplot2)
+font_fam <- 'Mukta'
+
+# get other packages for plotting
+library(viridis)
+library(grid)
+library(gridExtra)
+library(ggrepel)
+
+```
+
+
+# Load the data
+
+```{r}
+path_to_data <- './data/data-2021-01-04_filtered.RData'
+
+# imports data frame with all identified publications
+load(path_to_data)
+
+# create results dir
+if (!dir.exists('./results')) {
+  dir.create('./results')
+  dir.create('./results/figures')
+}
+```
+
+# Compute results to generate Figure 1
+
+Compute the annual scientific production (i.e., number of publications per year) 
+since 1990
+
+```{r}
+ann_prod <- M %>% 
+  # use PY (Year Published) WoS field tag
+  group_by(PY) %>%
+  summarise(n_articles = sum(!is.na(PY)))
+```
+
+## Generate Figure 1
+
+```{r fig.align = 'center'}
+ann_prod_plot <- ggplot(ann_prod, aes(x = PY, y = n_articles)) + 
+  geom_point(alpha = 0.85, size = 1.5) +
+  # geom_smooth(method = lm, formula = y ~ splines::ns(x, 3), 
+  #             size = 0.75, alpha = 0.25, color = '#D64B40FF') +
+  geom_line(size = 0.75) +
+  geom_segment(aes(x = -Inf, y = 0, xend = -Inf, yend = 150),
+               color = 'black', linetype = 1) +
+  geom_segment(aes(x = 1990, y = -Inf, xend = 2020, yend = -Inf),
+               color = 'black', linetype = 1, ) +
+  scale_x_continuous(breaks = c(seq(1990, 2020, 6))) +
+  scale_y_continuous(breaks = c(seq(0, 150, 25))) +
+  theme(plot.margin = unit(c(5, 30, 5, 5), 'pt'),
+        panel.background = element_blank(),
+        plot.title = element_text(color = 'black', size = 18, face = 'bold', 
+                                  hjust = 0, family=font_fam),
+        axis.title.x = element_text(color = 'black', size = 16, face = 'bold',
+                                    margin = margin(t = 10), family=font_fam),
+        axis.title.y = element_text(color = 'black', size = 16, face = 'bold',
+                                    margin = margin(r = 10), family=font_fam),
+        axis.text.x = element_text(color = 'black', size = 14,
+                                   family=font_fam),
+        axis.text.y = element_text(color = 'black', size = 14, family=font_fam),
+        panel.grid.major.x = element_line(size = 0.5, linetype = 'solid',
+                                          colour = "gray98"),
+        panel.grid.major.y = element_line(size = 0.5, linetype = 'solid',
+                                          colour = "gray98"),
+        panel.grid.minor.y = element_line(size = 0.25, linetype = 'solid',
+                                          colour = "gray98"),
+        legend.title = element_blank()) +
+  labs(y = 'Number of publications', x = 'Year', 
+       title = 'Annual scientific production'); ann_prod_plot
+ggsave(filename = './results/figures/Fig_1.tiff',
+       plot = ann_prod_plot, 
+       width = 16, height = 10, units = 'cm',
+       dpi = 1200)
+```
+
+
+### Follow up anaylses
+
+Get statistics to describe the increase in publications since 1990
+
+```{r}
+# fit cubic growth model
+model_01 <- lm(n_articles ~ splines::ns(PY, df = 3),
+                data = ann_prod)
+# get F-statistic
+anova(model_01)
+
+# create data frame to store predictions
+N <- length(ann_prod$PY)
+x <- ann_prod[which.max(complete.cases(ann_prod)), ]
+df <- do.call(rbind, lapply(1:N, function(i) x))
+df$PY <- ann_prod$PY
+
+# compute spline effect
+df$art.hat <- predict(model_01, newdata = df)
+```
+
+Plot results
+
+```{r fig.align='center'}
+with(df, plot(PY, art.hat, type = "l", lwd = 2, 
+              ylab = "", xlab="Year", 
+              main = "Relative spline term"))
+mtext("Spline contribution\nto the link function", side=2, line=2)
+
+# plot estimated change per year
+dYear <- diff(df$PY[1:2])
+delta <- diff(df$art.hat)/dYear
+year <- (df$PY[-N] + df$PY[-1]) / 2
+plot(year, delta, type="l", lwd=2, 
+     ylab="Change per year", xlab="Year",
+     main="Spline Slope (Effective Coefficient)")
+```
+
+Estimated change scores for early and late period
+
+```{r}
+# compute early and later change
+# (i.e., before 2007)
+print(paste('Change before 2007: Mean', mean(delta[year < 2007]),
+            'SD', sd(delta[year < 2007]) / sqrt(length(delta[year < 2007]))))
+
+print(paste('Change after 2007: Mean', mean(delta[year > 2007]),
+            'SD', sd(delta[year >= 2007]) / sqrt(length(delta[year >= 2007]))))
+```
+
+```{r include = FALSE}
+rm(ann_prod, ann_prod_plot, df, model_02, x,
+   delta, dYear, N, year)
+```
+
+# Compute results for Figure 2a
+
+First get thesaurus for references (i.e., contains info about misspelled refreences
+and author names)
+
+```{r}
+thesaurus <- read.table('./data/thesaurus/most_cited_refs_thesaurus.tsv',
+                        header = T, sep = '\t')
+```
+
+Now clean reference lists from duplicates
+
+```{r}
+# get custom function
+source('./r_functions.R')
+
+# clean reference lists
+M_new <- clean_citations(M, 'CR', thesaurus)
+
+M_short <- M_new %>% filter(TC > 10)
+save(M_short, file = "./data/M_short_TC_10.RData")
+
+M_short_2010 <- M_short %>% filter(PY > 2009)
+save(M_short, file = "./data/M_short_PY_2010.RData")
+
+```
+
+Compute most cited references and format citations in accordance with
+APA style
+
+```{r}
+# get number of citations per cited reference
+cited <- as.data.frame(bibliometrix::citations(M_new, 'CR')$Cited)
+
+# format names
+require(dplyr)
+require(tidyr)
+require(stringr)
+cited <- cited %>% 
+  separate(CR, c('Author', 'Year', 'Source'), ',') %>%
+  mutate(Name = paste(tolower(Author), 
+                      ' (', str_trim(Year, 'left'), '), ',  
+                      tolower(str_trim(Source, 'left')), 
+                      sep = '')) %>%
+  mutate(Name_Short = paste(tolower(Author),
+                            ' (', str_trim(Year, 'left'), ')', 
+                            sep = '')) %>%
+  filter(Freq >= 50) %>%
+  arrange(desc(Freq)) %>%
+  mutate(Name = factor(Name, levels=rev(Name))) %>%
+  select(Name, Year, Name_Short, Source, Freq) %>%
+  mutate(Year = as.numeric(str_trim(Year, 'left')))
+
+# APA style to match in text references
+intext <- c('Schultz et al., 1997', 'Rescorla & Wagner, 1972',
+  'Holroyd & Coles, 2002', 'Sutton & Barto, 1998', 
+  'Friston, 2005', 'Pearce & Hall, 1980',
+  'Miltner et al., 1997', 'Schultz & Dickinson, 2000',
+  'Gehring & Willoughby, 2002', "O'Doherty et al., 2003", 
+  'Montague et al., 1996', 'Rao & Ballard, 1999', 
+  'Schultz, 1998', 'Behrens et al., 2007', 
+  "O'Doherty et al., 2004", 'Friston, 2010',
+  'Mackintosh, 1975', 'Gehring et al., 1993',
+  'Botvinick et al., 2001', 'Delorme & Makeig, 2004')
+
+# remove some references to avoid clutter in figures
+cited$in_text <- intext
+cited <- cited %>% 
+  mutate(label = ifelse(in_text == "O'Doherty et al., 2003", '(1)',
+                        ifelse(in_text == "O'Doherty et al., 2004", '(2)', 
+                               ifelse(in_text == 'Rao & Ballard, 1999', '(3)', 
+                                      ifelse(in_text == 'Schultz, 1998', '(4)', 
+                                             in_text)))))
+
+```
+
+```{r}
+cited_plot <- ggplot(cited, aes(x = Year, y = Freq, fill = Freq, label = label)) +
+  geom_segment(aes(x = -Inf, y = 50, 
+                   xend = -Inf, yend = 175),
+               color = 'black', size = rel(0.5), linetype = 1) +
+  geom_segment(aes(x = 1970, y = -Inf, xend = 2010, yend = -Inf),
+               color = 'black', size = rel(0.5), linetype = 1) +
+  geom_point(stat = 'identity', show.legend = F, size = 1.5,
+             shape = 21) +
+  geom_text_repel(seed = 46, size = 2.75, max.overlaps = Inf,
+                  min.segment.length = unit(0.1, 'lines'),
+                  segment.alpha = 0.5, segment.size = 0.30, force = 5.0,
+                  nudge_x = -1.5, nudge_y = 1.0, box.padding = .25, point.padding = .5,
+                  color = 'black') +
+  scale_fill_viridis(option = 'B', begin = 0.1, end = 0.9) +
+  coord_cartesian(ylim = c(35, 180), xlim = c(1970, 2012)) +
+  scale_y_continuous(breaks = c(seq(50, 175, 25))) +
+  scale_x_continuous(breaks = c(seq(1970, 2010, 5))) +
+  theme(plot.margin = unit(c(10, 10, 10, 10), 'pt'),
+        plot.title = element_text(color = 'black', size = 18, face = 'bold', 
+                                  hjust = 0, family = 'Mukta'),
+        axis.title.x = element_text(color = 'black', size = 16,
+                                    margin = margin(t = 10), face = 'bold',
+                                    family = 'Mukta'),
+        axis.title.y = element_text(color = 'black', size = 16,
+                                    margin = margin(r = 10), face = 'bold',
+                                    family = 'Mukta'),
+        axis.text.x = element_text(color = 'black', size = 14, family = 'Mukta'),
+        axis.text.y = element_text(color = 'black', size = 14, family = 'Mukta'),
+        panel.background = element_rect(fill = 'white'),
+        panel.grid.major.x = element_line(size = 0.5, linetype = 'solid',
+                                          colour = "gray98"),
+        panel.grid.major.y = element_line(size = 0.5, linetype = 'solid',
+                                          colour = "gray98"),
+        panel.grid.minor = element_blank(),
+        strip.text = element_blank(),
+        strip.background = element_blank(),
+        legend.position='right',
+        legend.title = element_blank(),
+        legend.text = element_text(size = 8),
+        panel.spacing = unit(1, "lines")) +
+  labs(y = 'Times cited', x = 'Publication year', 
+       title = 'Most cited references'); cited_plot
+ggsave(filename = './results/figures/Fig_2.tiff',
+       plot = cited_plot, 
+       width = 16.0, height = 11.0,  units = 'cm', dpi = 1200)
+```
+# Compute results for Figure 2b
+
+First get thesaurus for keywords (i.e., contains info about misspelled keywords
+and duplicates)
+
+```{r}
+# get custom function
+source('./r_functions.R')
+
+thesaurus_topics <- read.table('./data/thesaurus/trend_topics_thesaurus.tsv',
+                               header = T)
+
+```
+
+
+Now clean the keyword lists
+
+```{r }
+M_new <- clean_citations(M, 'ID', thesaurus_topics)
+```
+
+Compute frequency of appearance measures for each keyword 
+(only do this for timespan 2010 - 2020)
+
+```{r} 
+trends <- fieldByYear(M_new, field = "ID", timespan = c(2010, 2020),
+                      min.freq = 5, n.items = 5, graph = F)
+
+# adjust names to avoid clutter
+trend_topics <- trends$df_graph %>% 
+  arrange(desc(year_med)) %>%
+  mutate(item = as.character(item)) %>%
+  mutate(item = ifelse(item == 'episodic memory', 
+                       "memory^(6)", item)) %>%
+  mutate(item = ifelse(item == 'language comprehension', 
+                       "language^(7)", item)) %>%
+  mutate(item = ifelse(item == 'judgment', 
+                         "(1)", item)) %>%
+  mutate(item = ifelse(item == 'identification', 
+                       "(2)", item)) %>%
+  mutate(item = ifelse(item == 'attribution', 
+                       "(3)", item)) %>%
+  mutate(item = ifelse(item == 'awareness', 
+                       "(4)", item)) %>%
+  mutate(item = ifelse(item == 'communication', 
+                       "(5)", item)) %>%
+  mutate(item = str_replace(item, ' ', '~')) %>%
+  ungroup() %>%
+  mutate(item = factor(item),
+         sfreq = (freq-min(freq))/(max(freq)-min(freq)))
+```
+
+Create Figure 3
+
+```{r}
+trends_plot <- ggplot(data = trend_topics, 
+       aes(x = year_med, y = freq, label = item, fill = sfreq)) +
+  geom_point(stat = 'identity', show.legend = F, size = 1.5,
+             shape = 21) +
+  geom_text_repel(seed = 46, size = 3.25, max.overlaps = Inf,
+                  min.segment.length = unit(0.1, 'lines'),
+                  segment.alpha = 0.5, segment.size = 0.30, force = 5.0,
+                  box.padding = .35, point.padding = .5,
+                  color = 'black', parse = T) +
+  coord_cartesian(xlim = c(2008, 2022), ylim = c(-5, 110)) +
+  scale_x_continuous(breaks = c(seq(2010, 2020, 5))) +
+  scale_y_continuous(breaks = c(seq(5, 105, 25))) +
+  geom_segment(aes(x = -Inf, y = 5, 
+                   xend = -Inf, yend = 105),
+               color = 'black', size = rel(0.5), linetype = 1) +
+  geom_segment(aes(x = 2010, y = -Inf, xend = 2020, yend = -Inf),
+               color = 'black', size = rel(0.5), linetype = 1) +
+  scale_fill_viridis(option = 'B') +
+  theme(plot.margin = unit(c(10, 10, 10, 10), 'pt'),
+        plot.title = element_text(color = 'black', size = 20, face = 'bold', 
+                                  hjust = 0, family = 'Mukta'),
+        axis.title.x = element_text(color = 'black', size = 18,
+                                    margin = margin(t = 10), face = 'bold',
+                                    family = 'Mukta'),
+        axis.title.y = element_text(color = 'black', size = 18,
+                                    margin = margin(r = 10), face = 'bold',
+                                    family = 'Mukta'),
+        axis.text.x = element_text(color = 'black', size = 12, 
+                                   family = 'Mukta'),
+        axis.text.y = element_text(color = 'black', size = 12, 
+                                   family = 'Mukta'),
+        panel.background = element_rect(fill = 'white'),
+        panel.grid.major.x = element_line(size = 0.5, linetype = 'solid',
+                                          colour = "gray98"),
+        panel.grid.major.y = element_line(size = 0.5, linetype = 'solid',
+                                          colour = "gray98"),
+        panel.grid.minor = element_blank(),
+        strip.text = element_blank(),
+        strip.background = element_blank(),
+        legend.position='right',
+        legend.title = element_blank(),
+        legend.text = element_text(size = 8),
+        panel.spacing = unit(1, "lines")) +
+  labs(y = 'Occurrences', x = 'Year of appearance', 
+       title = 'Trend topics'); trend_topics
+ggsave(filename = './results/figures/Fig_3.tiff',
+       plot = trends_plot, 
+       width = 18, height = 15,  units = 'cm', dpi = 1200)
+  
+```

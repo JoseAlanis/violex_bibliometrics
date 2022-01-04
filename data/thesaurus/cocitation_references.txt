@@ -1,0 +1,514 @@
+﻿id	cited reference	citations	total link strength
+264	"abler b, 2006, neuroimage, v31, p790, doi 10.1016/j.neuroimage.2006.01.001"	23	429
+422	"adams ra, 2013, brain struct funct, v218, p611, doi 10.1007/s00429-012-0475-5"	15	194
+430	"adams rick a, 2013, front psychiatry, v4, p47, doi 10.3389/fpsyt.2013.00047"	18	317
+442	"adcock ra, 2006, neuron, v50, p507, doi 10.1016/j.neuron.2006.03.036"	20	461
+646	"aiken l.s., 1991, multiple regression"	15	42
+684	"akaike h, 1974, ieee t automat contr, vac19, p716, doi 10.1109/tac.1974.1100705"	13	111
+841	"alexander ge, 1986, annu rev neurosci, v9, p357, doi 10.1146/annurev.ne.09.030186.002041"	17	323
+863	"alexander wh, 2011, nat neurosci, v14, p1338, doi 10.1038/nn.2921"	42	916
+876	"alfei jm, 2015, learn memory, v22, p385, doi 10.1101/lm.038513.115"	11	163
+1138	"american psychiatric association (apa), 2000, diagn stat man ment"	15	91
+1142	"american psychiatric association, 1994, diagn stat man ment"	11	28
+1148	"american psychiatric association, 2013, diagn stat man ment"	21	165
+1166	"amiez c, 2005, eur j neurosci, v21, p3447, doi 10.1111/j.1460-9568.2005.04170.x"	11	353
+1195	"amodio dm, 2006, nat rev neurosci, v7, p268, doi 10.1038/nrn1884"	12	186
+1855	"aron ar, 2004, j neurophysiol, v92, p1144, doi 10.1152/jn.01209.2003"	11	281
+2050	"aston-jones g, 2005, annu rev neurosci, v28, p403, doi 10.1146/annurev.neuro.28.061604.135709"	18	299
+2545	"baillargeon r, 1985, cognition, v20, p191, doi 10.1016/0010-0277(85)90008-3"	17	61
+2657	"baker te, 2011, biol psychol, v87, p25, doi 10.1016/j.biopsycho.2011.01.010"	13	322
+2783	"balleine bw, 1998, neuropharmacology, v37, p407, doi 10.1016/s0028-3908(98)00033-1"	11	291
+2790	"balleine bw, 2010, neuropsychopharmacol, v35, p48, doi 10.1038/npp.2009.131"	13	294
+2951	"bar m, 2007, trends cogn sci, v11, p280, doi 10.1016/j.tics.2007.05.005"	10	179
+3194	"baron rm, 1986, j pers soc psychol, v51, p1173, doi 10.1037/0022-3514.51.6.1173"	22	40
+3228	"barr dj, 2013, j mem lang, v68, p255, doi 10.1016/j.jml.2012.11.001"	10	86
+3366	"bartholow bd, 2001, psychol sci, v12, p197, doi 10.1111/1467-9280.00336"	12	58
+3380	"barto a. g., 1995, models inform proces, p215"	16	435
+3401	"bartra o, 2013, neuroimage, v76, p412, doi 10.1016/j.neuroimage.2013.02.063"	19	392
+3471	"bastos am, 2012, neuron, v76, p695, doi 10.1016/j.neuron.2012.10.038"	22	331
+3488	"bates d, 2015, j stat softw, v67, p1, doi 10.18637/jss.v067.i01"	18	97
+3612	"baumeister r. f., 2001, rev gen psychol, v5, p323, doi 10.1037/1089-2680.5.4.323"	11	63
+3677	"bayer hm, 2005, neuron, v47, p129, doi 10.1016/j.neuron.2005.05.020"	39	812
+3812	"beck a.t., 1979, cognitive therapy de"	13	100
+3877	"becker mpi, 2014, j neurosci, v34, p3005, doi 10.1523/jneurosci.3684-13.2014"	11	282
+3996	"behrens tej, 2007, nat neurosci, v10, p1214, doi 10.1038/nn1954"	57	1083
+3997	"behrens tej, 2008, nature, v456, p245, doi 10.1038/nature07538"	27	435
+4108	"bellebaum c, 2008, eur j neurosci, v27, p1823, doi 10.1111/j.1460-9568.2008.06138.x"	35	844
+4109	"bellebaum c, 2010, cereb cortex, v20, p2874, doi 10.1093/cercor/bhq038"	13	321
+4110	"bellebaum c, 2010, neuropsychologia, v48, p3343, doi 10.1016/j.neuropsychologia.2010.07.023"	11	368
+4148	"belova ma, 2007, neuron, v55, p970, doi 10.1016/j.neuron.2007.08.004"	10	254
+4158	"belsky j, 1985, j marriage fam, v47, p1037, doi 10.2307/352348"	18	68
+4160	"belsky j, 1986, j pers soc psychol, v50, p517, doi 10.1037/0022-3514.50.3.517"	10	39
+4300	"benjamini y, 1995, j r stat soc b, v57, p289, doi 10.1111/j.2517-6161.1995.tb02031.x"	13	107
+4586	"berns gs, 2001, j neurosci, v21, p2793, doi 10.1523/jneurosci.21-08-02793.2001"	10	262
+4617	"berridge kc, 1998, brain res rev, v28, p309, doi 10.1016/s0165-0173(98)00019-8"	20	371
+4624	"berridge kc, 2007, psychopharmacology, v191, p391, doi 10.1007/s00213-006-0578-x"	17	473
+4629	"berridge kc, 2012, eur j neurosci, v35, p1124, doi 10.1111/j.1460-9568.2012.07990.x"	14	231
+6046	"botvinick m, 1999, nature, v402, p179, doi 10.1038/46035"	11	166
+6057	"botvinick mm, 2001, psychol rev, v108, p624, doi 10.1037//0033-295x.108.3.624"	50	878
+6058	"botvinick mm, 2004, trends cogn sci, v8, p539, doi 10.1016/j.tics.2004.10.003"	21	405
+6060	"botvinick mm, 2007, cogn affect behav ne, v7, p356, doi 10.3758/cabn.7.4.356"	11	303
+6138	"bouton me, 1983, j exp psychol anim b, v9, p248, doi 10.1037/0097-7403.9.3.248"	13	101
+6153	"bouton me, 1993, psychol bull, v114, p80, doi 10.1037/0033-2909.114.1.80"	32	283
+6164	"bouton me, 2002, biol psychiat, v52, p976, doi 10.1016/s0006-3223(02)01546-9"	17	244
+6166	"bouton me, 2004, learn memory, v11, p485, doi 10.1101/lm.78804"	25	307
+6406	"brainard dh, 1997, spatial vision, v10, p433, doi 10.1163/156856897x00357"	34	328
+6877	"brischoux f, 2009, p natl acad sci usa, v106, p4894, doi 10.1073/pnas.0811507106"	10	267
+6974	"bromberg-martin es, 2010, neuron, v68, p815, doi 10.1016/j.neuron.2010.11.022"	17	406
+7125	"brown h, 2013, cogn process, v14, p411, doi 10.1007/s10339-013-0571-3"	13	138
+7145	"brown jw, 2005, science, v307, p1118, doi 10.1126/science.1105783"	18	438
+7388	"bubic a, 2010, front hum neurosci, v4, doi 10.3389/fnhum.2010.00025"	17	313
+7669	"burgoon jk, 1988, commun monogr, v55, p58, doi 10.1080/03637758809376158"	15	5
+7710	"burke cj, 2010, p natl acad sci usa, v107, p14431, doi 10.1073/pnas.1003111107"	16	341
+7849	"bush g, 2000, trends cogn sci, v4, p215, doi 10.1016/s1364-6613(00)01483-2"	15	315
+7856	"bush rr, 1951, psychol rev, v58, p313, doi 10.1037/h0054388"	13	232
+7912	"bustos sg, 2009, neuropsychopharmacol, v34, p446, doi 10.1038/npp.2008.75"	10	152
+8324	"campbell-meiklejohn dk, 2010, curr biol, v20, p1165, doi 10.1016/j.cub.2010.04.055"	10	140
+8595	"carlson jm, 2011, neuroimage, v57, p1608, doi 10.1016/j.neuroimage.2011.05.037"	14	379
+8751	"carter cs, 1998, science, v280, p747, doi 10.1126/science.280.5364.747"	26	540
+8802	"carver cs, 1994, j pers soc psychol, v67, p319, doi 10.1037/0022-3514.67.2.319"	18	168
+9025	"cavanagh jf, 2010, neuroimage, v49, p3198, doi 10.1016/j.neuroimage.2009.11.080"	24	503
+9030	"cavanagh jf, 2012, cereb cortex, v22, p2575, doi 10.1093/cercor/bhr332"	13	250
+9031	"cavanagh jf, 2012, psychophysiology, v49, p220, doi 10.1111/j.1469-8986.2011.01293.x"	11	231
+9035	"cavanagh jf, 2014, trends cogn sci, v18, p414, doi 10.1016/j.tics.2014.04.012"	15	250
+9358	"chase hw, 2011, j cognitive neurosci, v23, p936, doi 10.1162/jocn.2010.21456"	27	660
+9842	"chowdhury r, 2013, nat neurosci, v16, p648, doi 10.1038/nn.3364"	15	234
+10106	"clark a, 2013, behav brain sci, v36, p181, doi 10.1017/s0140525x12000477"	51	614
+10461	"cohen j, 1983, appl multiple regres"	10	26
+10463	"cohen j, 1992, psychol bull, v112, p155, doi 10.1037/0033-2909.112.1.155"	12	54
+10472	"cohen j., 1988, stat power anal beha"	25	149
+10474	"cohen j., 2003, appl multiple regres"	12	30
+10492	"cohen jr, 2010, nat neurosci, v13, p669, doi 10.1038/nn.2558"	10	132
+10494	"cohen jy, 2012, nature, v482, p85, doi 10.1038/nature10754"	10	236
+10530	"cohen mx, 2007, j neurosci, v27, p371, doi 10.1523/jneurosci.4421-06.2007"	30	862
+10531	"cohen mx, 2007, neuroimage, v35, p968, doi 10.1016/j.neuroimage.2006.11.056"	26	690
+10545	"cohen mx, 2011, trends cogn sci, v15, p558, doi 10.1016/j.tics.2011.10.004"	12	354
+10694	"collins age, 2012, eur j neurosci, v35, p1024, doi 10.1111/j.1460-9568.2011.07980.x"	11	163
+11022	"cools r, 2002, j neurosci, v22, p4563, doi 10.1523/jneurosci.22-11-04563.2002"	12	226
+11072	"cooper jc, 2012, j cognitive neurosci, v24, p106, doi 10.1162/jocn_a_00114"	10	198
+11128	"corbetta m, 2002, nat rev neurosci, v3, p201, doi 10.1038/nrn755"	17	207
+11174	"corlett pr, 2004, neuron, v44, p877, doi 10.1016/j.neuron.2004.11.022"	15	208
+11176	"corlett pr, 2007, brain, v130, p2387, doi 10.1093/brain/awm173"	21	278
+11177	"corlett pr, 2007, j psychopharmacol, v21, p238, doi 10.1177/0269881107077716"	13	181
+11182	"corlett pr, 2009, psychopharmacology, v206, p515, doi 10.1007/s00213-009-1561-0"	10	173
+11183	"corlett pr, 2010, prog neurobiol, v92, p345, doi 10.1016/j.pneurobio.2010.06.007"	13	251
+11388	"courville ac, 2006, trends cogn sci, v10, p294, doi 10.1016/j.tics.2006.05.004"	20	377
+11427	"cowan cp, 1985, j fam issues, v6, p451, doi 10.1177/019251385006004004"	10	45
+11515	"craig ad, 2009, nat rev neurosci, v10, p59, doi 10.1038/nrn2555"	13	160
+11577	"craske mg, 2008, behav res ther, v46, p5, doi 10.1016/j.brat.2007.10.003"	23	111
+11581	"craske mg, 2014, behav res ther, v58, p10, doi 10.1016/j.brat.2014.04.006"	36	192
+12110	"d'ardenne k, 2008, science, v319, p1264, doi 10.1126/science.1150605"	22	499
+12311	"danielmeier c, 2011, front psychol, v2, doi 10.3389/fpsyg.2011.00233"	11	183
+12640	"daw nd, 2002, neural networks, v15, p603, doi 10.1016/s0893-6080(02)00052-7"	18	452
+12641	"daw nd, 2005, nat neurosci, v8, p1704, doi 10.1038/nn1560"	41	1010
+12642	"daw nd, 2006, curr opin neurobiol, v16, p199, doi 10.1016/j.conb.2006.03.006"	13	217
+12643	"daw nd, 2006, nature, v441, p876, doi 10.1038/nature04766"	30	665
+12644	"daw nd, 2006, neural comput, v18, p1637, doi 10.1162/neco.2006.18.7.1637"	13	331
+12650	"daw nd, 2011, neuron, v69, p1204, doi 10.1016/j.neuron.2011.02.027"	42	783
+12701	"dayan p, 1995, neural comput, v7, p889, doi 10.1162/neco.1995.7.5.889"	10	193
+12706	"dayan p, 2000, nat neurosci, v3, p1218, doi 10.1038/81504"	19	324
+13156	"dehaene s, 1994, psychol sci, v5, p303, doi 10.1111/j.1467-9280.1994.tb00630.x"	15	311
+13250	"delgado mr, 2000, j neurophysiol, v84, p3072"	20	469
+13251	"delgado mr, 2003, cogn affect behav ne, v3, p27, doi 10.3758/cabn.3.1.27"	15	455
+13252	"delgado mr, 2005, nat neurosci, v8, p1611, doi 10.1038/nn1575"	13	284
+13253	"delgado mr, 2005, neuroimage, v24, p862, doi 10.1016/j.neuroimage.2004.10.002"	11	194
+13255	"delgado mr, 2007, ann ny acad sci, v1104, p70, doi 10.1196/annals.1390.002"	13	373
+13258	"delgado mr, 2008, philos t r soc b, v363, p3787, doi 10.1098/rstb.2008.0161"	13	271
+13299	"delong ka, 2005, nat neurosci, v8, p1117, doi 10.1038/nn1504"	11	83
+13309	"delorme a, 2004, j neurosci meth, v134, p9, doi 10.1016/j.jneumeth.2003.10.009"	51	762
+13378	"den ouden hem, 2009, cereb cortex, v19, p1175, doi 10.1093/cercor/bhn161"	22	348
+13379	"den ouden hem, 2010, j neurosci, v30, p3210, doi 10.1523/jneurosci.4458-09.2010"	16	346
+13380	"den ouden hem, 2012, front psychol, v3, doi 10.3389/fpsyg.2012.00548"	18	314
+13544	"desimone r, 1995, annu rev neurosci, v18, p193, doi 10.1146/annurev.neuro.18.1.193"	11	195
+13777	"diaz-mataix l, 2013, curr biol, v23, p467, doi 10.1016/j.cub.2013.01.053"	16	219
+13819	"dickinson a, 1984, q j exp psychol-a, v36, p29, doi 10.1080/14640748408401502"	14	149
+13842	"dickinson a., 2002, stevens hdb expt psy, v3, p497, doi 10.1002/0471214426.pas0312"	10	254
+14202	"doeller cf, 2003, neuroimage, v20, p1270, doi 10.1016/s1053-8119(03)00389-6"	10	70
+14299	"donchin e, 1981, psychophysiology, v18, p493, doi 10.1111/j.1469-8986.1981.tb01815.x"	11	194
+14300	"donchin e, 1988, behav brain sci, v11, p357, doi 10.1017/s0140525x00058027"	25	557
+14474	"doya k, 2002, neural networks, v15, p495, doi 10.1016/s0893-6080(02)00044-8"	10	191
+14763	"duncanjohnson cc, 1977, psychophysiology, v14, p456, doi 10.1111/j.1469-8986.1977.tb01312.x"	15	375
+15419	"eisenberg m, 2003, science, v301, p1102, doi 10.1126/science.1086881"	12	163
+15442	"eisenberger ni, 2003, science, v302, p290, doi 10.1126/science.1089134"	11	106
+15669	"elman jl, 1990, cognitive sci, v14, p179, doi 10.1207/s15516709cog1402_1"	13	102
+15866	"eppinger b, 2008, neuropsychologia, v46, p521, doi 10.1016/j.neuropsychologia.2007.09.001"	28	683
+15867	"eppinger b, 2009, psychophysiology, v46, p1043, doi 10.1111/j.1469-8986.2009.00838.x"	10	302
+15872	"eppinger b, 2013, j neurosci, v33, p9905, doi 10.1523/jneurosci.2942-12.2013"	11	176
+15953	"eriksen ba, 1974, percept psychophys, v16, p143, doi 10.3758/bf03203267"	14	167
+16013	"esber gr, 2011, p roy soc b-biol sci, v278, p2553, doi 10.1098/rspb.2011.0836"	11	225
+16225	"exton-mcguinness mtj, 2015, behav brain res, v278, p375, doi 10.1016/j.bbr.2014.10.011"	17	224
+16357	"falkenstein m, 1991, electroen clin neuro, v78, p447, doi 10.1016/0013-4694(91)90062-9"	27	573
+16361	"falkenstein m, 2000, biol psychol, v51, p87, doi 10.1016/s0301-0511(99)00031-9"	12	146
+16548	"faul f, 2007, behav res methods, v39, p175, doi 10.3758/bf03193146"	34	249
+16634	"federmeier kd, 1999, j mem lang, v41, p469, doi 10.1006/jmla.1999.2660"	12	77
+16732	"feldman h, 2010, front hum neurosci, v4, doi 10.3389/fnhum.2010.00215"	35	611
+16783	"felleman dj, 1991, cereb cortex, v1, p1, doi 10.1093/cercor/1.1.1"	12	141
+16837	"ferdinand nk, 2012, j neurosci, v32, p12087, doi 10.1523/jneurosci.1410-12.2012"	21	547
+16898	"fernandez rs, 2016, neurosci biobehav r, v68, p423, doi 10.1016/j.neubiorev.2016.06.004"	11	153
+16988	"festinger l., 1957, theory cognitive dis"	23	90
+17201	"fiorillo cd, 2003, science, v299, p1898, doi 10.1126/science.1077349"	38	866
+17233	"fischer ag, 2013, neuron, v79, p1243, doi 10.1016/j.neuron.2013.07.006"	10	235
+17538	"fletcher pc, 2001, nat neurosci, v4, p1043, doi 10.1038/nn733"	14	225
+17540	"fletcher pc, 2009, nat rev neurosci, v10, p48, doi 10.1038/nrn2536"	32	478
+17626	"foa eb, 1986, psychol bull, v99, p20, doi 10.1037/0033-2909.99.1.20"	17	91
+17711	"folstein jr, 2008, psychophysiology, v45, p152, doi 10.1111/j.1469-8986.2007.00602.x"	20	327
+17714	"folstein mf, 1975, j psychiat res, v12, p189, doi 10.1016/0022-3956(75)90026-6"	13	92
+17904	"foti d, 2011, hum brain mapp, v32, p2207, doi 10.1002/hbm.21182"	19	529
+18095	"frank mj, 2004, science, v306, p1940, doi 10.1126/science.1102941"	45	896
+18096	"frank mj, 2005, j cognitive neurosci, v17, p51, doi 10.1162/0898929052880093"	17	326
+18097	"frank mj, 2005, neuron, v47, p495, doi 10.1016/j.neuron.2005.06.020"	20	523
+18100	"frank mj, 2006, psychol rev, v113, p300, doi 10.1037/0033-295x.113.2.300"	13	302
+18104	"frank mj, 2007, p natl acad sci usa, v104, p16311, doi 10.1073/pnas.0706111104"	26	430
+18386	"friedman d, 2001, neurosci biobehav r, v25, p355, doi 10.1016/s0149-7634(01)00019-7"	10	180
+18520	"friston kj, 2005, philos t r soc b, v360, p815, doi 10.1098/rstb.2005.1622"	91	1113
+18521	"friston kj, 2006, j physiol-paris, v100, p70, doi 10.1016/j.jphysparis.2006.10.001"	11	171
+18530	"friston kj, 2009, philos t r soc b, v364, p1211, doi 10.1098/rstb.2008.0300"	23	277
+18532	"friston kj, 2009, plos one, v4, doi 10.1371/journal.pone.0006421"	10	209
+18533	"friston kj, 2009, trends cogn sci, v13, p293, doi 10.1016/j.tics.2009.04.005"	28	460
+18534	"friston kj, 2010, biol cybern, v102, p227, doi 10.1007/s00422-010-0364-z"	13	209
+18536	"friston kj, 2010, nat rev neurosci, v11, p127, doi 10.1038/nrn2787"	54	683
+18539	"friston kj, 2011, biol cybern, v104, p137, doi 10.1007/s00422-011-0424-z"	10	171
+18546	"friston kj, 2012, plos comput biol, v8, doi 10.1371/journal.pcbi.1002327"	18	311
+18978	"gallistel cr, 2000, psychol rev, v107, p289, doi 10.1037/0033-295x.107.2.289"	11	220
+19195	"garrido mi, 2008, neuroimage, v42, p936, doi 10.1016/j.neuroimage.2008.05.018"	13	155
+19196	"garrido mi, 2009, clin neurophysiol, v120, p453, doi 10.1016/j.clinph.2008.11.029"	26	281
+19202	"garrison j, 2013, neurosci biobehav r, v37, p1297, doi 10.1016/j.neubiorev.2013.03.023"	21	425
+19385	"gehring wj, 1993, psychol sci, v4, p385, doi 10.1111/j.1467-9280.1993.tb00586.x"	53	1015
+19389	"gehring wj, 2002, science, v295, p2279, doi 10.1126/science.1066893"	66	1436
+20060	"glascher j, 2009, cereb cortex, v19, p483, doi 10.1093/cercor/bhn098"	10	271
+20062	"glascher j, 2010, neuron, v66, p585, doi 10.1016/j.neuron.2010.04.016"	34	698
+20153	"glimcher pw, 2011, p natl acad sci usa, v108, p15647, doi 10.1073/pnas.1014269108"	19	309
+20180	"gluck ma, 1988, j exp psychol gen, v117, p227, doi 10.1037/0096-3445.117.3.227"	11	117
+20736	"gottfried ja, 2003, science, v301, p1104, doi 10.1126/science.1087919"	10	218
+20853	"grace aa, 1991, neuroscience, v41, p1, doi 10.1016/0306-4522(91)90196-u"	10	206
+20870	"gradin vb, 2011, brain, v134, p1751, doi 10.1093/brain/awr059"	15	259
+20991	"gratton g, 1983, electroen clin neuro, v55, p468, doi 10.1016/0013-4694(83)90135-9"	40	684
+21218	"greenhouse sw, 1959, psychometrika, v24, p95, doi 10.1007/bf02289823"	12	97
+21240	"greenwald ag, 1998, j pers soc psychol, v74, p1464, doi 10.1037/0022-3514.74.6.1464"	12	15
+21275	"gregory rl, 1980, philos t roy soc b, v290, p181, doi 10.1098/rstb.1980.0090"	12	207
+21401	"grill-spector k, 2006, trends cogn sci, v10, p14, doi 10.1016/j.tics.2005.11.006"	18	277
+21610	"grush r, 2004, behav brain sci, v27, p377, doi 10.1017/s0140525x04000093"	10	108
+21907	"haber sn, 2000, j neurosci, v20, p2369"	11	289
+21912	"haber sn, 2010, neuropsychopharmacol, v35, p4, doi 10.1038/npp.2009.129"	20	399
+21943	"hackel ls, 1992, j pers soc psychol, v62, p944, doi 10.1037/0022-3514.62.6.944"	18	74
+21985	"haenschel c, 2005, j neurosci, v25, p10494, doi 10.1523/jneurosci.1227-05.2005"	10	126
+22105	"hajcak g, 2003, psychophysiology, v40, p895, doi 10.1111/1469-8986.00107"	13	191
+22107	"hajcak g, 2005, psychophysiology, v42, p151, doi 10.1111/j.1469-8986.2005.00270.x"	11	269
+22108	"hajcak g, 2005, psychophysiology, v42, p161, doi 10.1111/j.1469-8986.2005.00278.x"	34	844
+22109	"hajcak g, 2006, biol psychol, v71, p148, doi 10.1016/j.biopsycho.2005.04.001"	44	1065
+22111	"hajcak g, 2007, psychophysiology, v44, p905, doi 10.1111/j.1469-8986.2007.00567.x"	42	1014
+22127	"hajihosseini a, 2013, psychophysiology, v50, p550, doi 10.1111/psyp.12040"	11	261
+22296	"hamid aa, 2016, nat neurosci, v19, p117, doi 10.1038/nn.4173"	10	140
+22347	"hammerer d, 2011, j cognitive neurosci, v23, p579, doi 10.1162/jocn.2010.21475"	11	224
+22380	"hampton an, 2006, j neurosci, v26, p8360, doi 10.1523/jneurosci.1010-06.2006"	16	431
+22383	"hampton an, 2008, p natl acad sci usa, v105, p6741, doi 10.1073/pnas.0711099105"	15	233
+22574	"hare ta, 2008, j neurosci, v28, p5623, doi 10.1523/jneurosci.1309-08.2008"	15	294
+22847	"haruno m, 2006, j neurophysiol, v95, p948, doi 10.1152/jn.00382.2005"	11	239
+23014	"hauser tu, 2014, neuroimage, v84, p159, doi 10.1016/j.neuroimage.2013.08.028"	23	567
+23016	"hauser tu, 2015, neuroimage, v104, p347, doi 10.1016/j.neuroimage.2014.09.018"	11	157
+23097	"hayden by, 2011, j neurosci, v31, p4178, doi 10.1523/jneurosci.4652-10.2011"	20	514
+23231	"heaton r. k., 1993, wisconsin card sorti"	10	29
+23383	"heine sj, 2006, pers soc psychol rev, v10, p88, doi 10.1207/s15327957pspr1002_1"	11	63
+23998	"higgins et, 1987, psychol rev, v94, p319, doi 10.1037/0033-295x.94.3.319"	13	51
+24230	"hirschi t., 1969, causes delinquency"	10	5
+24564	"hohwy j, 2008, cognition, v108, p687, doi 10.1016/j.cognition.2008.05.010"	14	236
+24578	"hohwy j., 2013, predictive mind"	14	172
+24681	"hollerman jr, 1998, nat neurosci, v1, p304"	26	547
+24784	"holroyd cb, 2002, psychol rev, v109, p679, doi [10.1037//0033-295x.109.4.679 10.1037/0033-295x.109.4.679]"	139	2816
+24786	"holroyd cb, 2003, neuroreport, v14, p2481, doi 10.1097/00001756-200312190-00037"	38	953
+24790	"holroyd cb, 2004, errors conflicts bra, p211"	10	246
+24791	"holroyd cb, 2004, nat neurosci, v7, p497, doi 10.1038/nn1238"	19	451
+24792	"holroyd cb, 2004, psychophysiology, v41, p245, doi 10.1111/j.1469-8986.2004.00152.x"	24	609
+24794	"holroyd cb, 2006, brain res, v1105, p93, doi 10.1016/j.brainres.2005.12.015"	26	628
+24795	"holroyd cb, 2007, psychophysiology, v44, p913, doi 10.1111/j.1469-8986.2007.00561.x"	39	853
+24796	"holroyd cb, 2008, cortex, v44, p548, doi 10.1016/j.cortex.2007.08.013"	11	275
+24798	"holroyd cb, 2008, psychophysiology, v45, p688, doi 10.1111/j.1469-8986.2008.00668.x"	43	1140
+24799	"holroyd cb, 2009, cogn affect behav ne, v9, p59, doi 10.3758/cabn.9.1.59"	33	871
+24801	"holroyd cb, 2011, neuroreport, v22, p249, doi 10.1097/wnr.0b013e328345441d"	17	586
+24802	"holroyd cb, 2012, trends cogn sci, v16, p122, doi 10.1016/j.tics.2011.12.008"	21	490
+24873	"hommel b, 2001, behav brain sci, v24, p849, doi 10.1017/s0140525x01000103"	10	119
+25101	"horvitz jc, 2000, neuroscience, v96, p651, doi 10.1016/s0306-4522(00)00019-1"	12	333
+25184	"houk jc, 1995, models inform proces, p249"	12	261
+25355	"hu lt, 1999, struct equ modeling, v6, p1, doi 10.1080/10705519909540118"	18	12
+25870	"iglesias s, 2013, neuron, v80, p519, doi 10.1016/j.neuron.2013.09.009"	16	251
+26105	"ito s, 2003, science, v302, p120, doi 10.1126/science.1087847"	12	338
+26429	"james w., 1890, principles psychol"	12	102
+26772	"jessup rk, 2010, j neurosci, v30, p3467, doi 10.1523/jneurosci.4130-09.2010"	11	319
+26876	"jocham g, 2011, j neurosci, v31, p1606, doi 10.1523/jneurosci.3904-10.2011"	12	208
+26887	"joel d, 2002, neural networks, v15, p535, doi 10.1016/s0893-6080(02)00047-3"	12	426
+27592	"kable jw, 2007, nat neurosci, v10, p1625, doi 10.1038/nn2007"	16	387
+27673	"kahneman d, 1979, econometrica, v47, p263, doi 10.2307/1914185"	31	395
+27692	"kahneman d, 2011, thinking fast slow"	10	106
+27734	"kakade s, 2002, neural networks, v15, p549, doi 10.1016/s0893-6080(02)00048-5"	11	296
+27795	"kalmuss d, 1992, j marriage fam, v54, p516, doi 10.2307/353238"	16	53
+27829	"kamin l. j, 1969, punishment aversive, p279"	17	237
+27832	"kamin l. j., 1968, miam s pred beh av s, p9"	15	220
+27883	"kanai r, 2015, philos t r soc b, v370, p69, doi 10.1098/rstb.2014.0169"	11	172
+28041	"kapur s, 2003, am j psychiat, v160, p13, doi 10.1176/appi.ajp.160.1.13"	23	345
+28170	"kass re, 1995, j am stat assoc, v90, p773, doi 10.1080/01621459.1995.10476572"	10	155
+28677	"kennerley sw, 2006, nat neurosci, v9, p940, doi 10.1038/nn1724"	16	449
+28679	"kennerley sw, 2009, j cognitive neurosci, v21, p1162, doi 10.1162/jocn.2009.21100"	11	248
+28689	"kenny d. a., 2006, dyadic data anal"	10	10
+28762	"kerns jg, 2004, science, v303, p1023, doi 10.1126/science.1089910"	20	410
+28916	"kiebel sj, 2008, plos comput biol, v4, doi 10.1371/journal.pcbi.1000209"	14	188
+28993	"kilner james m, 2007, cogn process, v8, p159, doi 10.1007/s10339-007-0170-2"	11	193
+29022	"kim h, 2006, plos biol, v4, p1453, doi 10.1371/journal.pbio.0040233"	13	337
+29159	"kindt m, 2009, nat neurosci, v12, p256, doi 10.1038/nn.2271"	12	152
+29192	"king-casas b, 2005, science, v308, p78, doi 10.1126/science.1108062"	11	205
+29476	"klein ta, 2007, science, v318, p1642, doi 10.1126/science.1145044"	10	204
+29585	"klucharev v, 2009, neuron, v61, p140, doi 10.1016/j.neuron.2008.11.027"	15	223
+29658	"knill dc, 2004, trends neurosci, v27, p712, doi 10.1016/j.tins.2004.10.007"	17	251
+29690	"knowlton bj, 1996, science, v273, p1399, doi 10.1126/science.273.5280.1399"	14	296
+29699	"knutson b, 2001, j neurosci, v21, doi 10.1523/jneurosci.21-16-j0002.2001"	21	445
+29700	"knutson b, 2001, neuroreport, v12, p3683, doi 10.1097/00001756-200112040-00016"	12	287
+29703	"knutson b, 2005, curr opin neurol, v18, p411, doi 10.1097/01.wco.0000173463.24758.f6"	12	271
+29704	"knutson b, 2005, j neurosci, v25, p4806, doi 10.1523/jneurosci.0642-05.2005"	19	464
+29940	"kok p, 2012, cereb cortex, v22, p2197, doi 10.1093/cercor/bhr310"	14	280
+29941	"kok p, 2012, neuron, v75, p265, doi 10.1016/j.neuron.2012.04.034"	11	202
+30017	"konorski j., 1967, integrative activity"	12	171
+30190	"koster-hale j, 2013, neuron, v79, p836, doi 10.1016/j.neuron.2013.08.020"	13	223
+30441	"kreussel l, 2012, psychophysiology, v49, p207, doi 10.1111/j.1469-8986.2011.01291.x"	11	349
+30609	"kruschke jk, 1992, psychol rev, v99, p22, doi 10.1037/0033-295x.99.1.22"	10	117
+30617	"kruschke jk, 2005, j exp psychol learn, v31, p830, doi 10.1037/0278-7393.31.5.830"	11	111
+30788	"kumar p, 2008, brain, v131, p2084, doi 10.1093/brain/awn136"	12	227
+30933	"kutas m, 1980, science, v207, p203, doi 10.1126/science.7350657"	12	125
+30937	"kutas m, 1984, nature, v307, p161, doi 10.1038/307161a0"	14	113
+30941	"kutas m, 2000, trends cogn sci, v4, p463, doi 10.1016/s1364-6613(00)01560-6"	10	60
+30943	"kutas m, 2011, annu rev psychol, v62, p621, doi 10.1146/annurev.psych.093008.131123"	16	109
+31612	"lau b, 2005, j exp anal behav, v84, p555, doi 10.1901/jeab.2005.110-04"	10	184
+31767	"lawson rp, 2014, front hum neurosci, v8, doi 10.3389/fnhum.2014.00302"	13	186
+31789	"lazarus rs, 1984, stress appraisal cop"	10	10
+31813	"le pelley me, 2004, q j exp psychol-b, v57, p193, doi 10.1080/02724990344000141"	19	275
+32024	"lee jlc, 2006, j neurosci, v26, p10051, doi 10.1523/jneurosci.2466-06.2006"	10	124
+32028	"lee jlc, 2009, trends neurosci, v32, p413, doi 10.1016/j.tins.2009.05.002"	13	172
+32078	"lee sw, 2014, neuron, v81, p687, doi 10.1016/j.neuron.2013.11.028"	12	225
+32088	"lee ts, 2003, j opt soc am a, v20, p1434, doi 10.1364/josaa.20.001434"	18	351
+32752	"li j, 2011, nat neurosci, v14, p1250, doi 10.1038/nn.2904"	12	247
+33238	"lisman je, 2005, neuron, v46, p703, doi 10.1016/j.neuron.2005.05.002"	19	339
+33323	"liu x, 2011, neurosci biobehav r, v35, p1219, doi 10.1016/j.neubiorev.2010.12.012"	11	208
+33378	"ljungberg t, 1992, j neurophysiol, v67, p145"	14	353
+33550	"logan gd, 1988, psychol rev, v95, p492, doi 10.1037/0033-295x.95.4.492"	10	31
+33601	"lohrenz t, 2007, p natl acad sci usa, v104, p9493, doi 10.1073/pnas.0608842104"	10	248
+33695	"lopez-calderon j, 2014, front hum neurosci, v8, doi 10.3389/fnhum.2014.00213"	10	151
+33969	"luck sj, 2005, intro event related"	16	341
+33975	"luck sj, 2014, introduction to the event-related potential technique, 2nd edition, p1"	13	262
+34165	"luu p, 2003, psychol sci, v14, p47, doi 10.1111/1467-9280.01417"	18	432
+34461	"mackintosh nj, 1975, psychol rev, v82, p276, doi 10.1037/h0076778"	52	715
+34696	"maia tv, 2011, nat neurosci, v14, p154, doi 10.1038/nn.2723"	14	324
+35053	"marco-pallares j, 2008, neuropsychologia, v46, p241, doi 10.1016/j.neuropsychologia.2007.07.016"	12	306
+35098	"maren s, 2004, nat rev neurosci, v5, p844, doi 10.1038/nrn1535"	10	104
+35451	"martin rs, 2012, front hum neurosci, v6, doi 10.3389/fnhum.2012.00304"	12	308
+35688	"mathys c, 2011, front hum neurosci, v5, doi 10.3389/fnhum.2011.00039"	21	336
+35691	"mathys cd, 2014, front hum neurosci, v8, doi 10.3389/fnhum.2014.00825"	10	139
+35706	"matsumoto k, 2003, science, v301, p229, doi 10.1126/science.1084204"	10	243
+35710	"matsumoto m, 2007, nat neurosci, v10, p647, doi 10.1038/nn1890"	22	577
+35711	"matsumoto m, 2007, nature, v447, p1111, doi 10.1038/nature05860"	16	407
+35712	"matsumoto m, 2009, nat neurosci, v12, p77, doi 10.1038/nn.2233"	11	211
+35713	"matsumoto m, 2009, nature, v459, p837, doi 10.1038/nature08028"	27	652
+35949	"mazzoni p, 2006, j neurosci, v26, p3642, doi 10.1523/jneurosci.5317-05.2006"	11	38
+36087	"mcclelland, 1986, parallel distributed, v1"	10	137
+36100	"mcclure sm, 2003, neuron, v38, p339, doi 10.1016/s0896-6273(03)00154-5"	45	955
+36570	"mcnally gp, 2011, trends neurosci, v34, p283, doi 10.1016/j.tins.2011.03.005"	13	151
+37082	"metereau e, 2013, cereb cortex, v23, p477, doi 10.1093/cercor/bhs037"	14	379
+37191	"miall rc, 1996, neural networks, v9, p1265, doi 10.1016/s0893-6080(96)00035-4"	13	116
+37317	"milad mr, 2007, biol psychiat, v62, p446, doi 10.1016/j.biopsych.2006.10.011"	11	93
+37389	"miller ek, 2001, annu rev neurosci, v24, p167, doi 10.1146/annurev.neuro.24.1.167"	26	380
+37478	"miller rr, 1995, psychol bull, v117, p363, doi 10.1037/0033-2909.117.3.363"	11	193
+37508	"millett r., 1988, proceedings of the 1988 dclass conference, p51, doi 10.1016/s0079-7421(08)60038-9"	13	250
+37554	"miltner whr, 1997, j cognitive neurosci, v9, p788, doi 10.1162/jocn.1997.9.6.788"	79	1688
+37647	"mirenowicz j, 1996, nature, v379, p449, doi 10.1038/379449a0"	12	383
+38006	"monfils mh, 2009, science, v324, p951, doi 10.1126/science.1167975"	13	158
+38040	"montague pr, 1996, j neurosci, v16, p1936, doi 10.1523/jneurosci.16-05-01936.1996"	59	1163
+38044	"montague pr, 2004, nature, v431, p760, doi 10.1038/nature03015"	21	457
+38050	"montague pr, 2012, trends cogn sci, v16, p72, doi 10.1016/j.tics.2011.11.018"	12	247
+38380	"morris g, 2006, nat neurosci, v9, p1057, doi 10.1038/nn1743"	13	370
+38727	"muller sv, 2005, clin neurophysiol, v116, p63, doi 10.1016/j.clinph.2004.07.009"	11	300
+38757	"mumford d, 1992, biol cybern, v66, p241, doi 10.1007/bf00198477"	22	316
+38911	"murray gk, 2008, mol psychiatr, v13, p267, doi 10.1038/sj.mp.4002058"	15	267
+39013	"muthen l. k., 1998, mplus users guide"	10	12
+39101	"naatanen r, 1978, acta psychol, v42, p313, doi 10.1016/0001-6918(78)90006-9"	15	164
+39109	"naatanen r, 1987, psychophysiology, v24, p375, doi 10.1111/j.1469-8986.1987.tb00311.x"	12	111
+39119	"naatanen r, 1999, psychol bull, v125, p826, doi 10.1037/0033-2909.125.6.826"	13	118
+39125	"naatanen r, 2005, psychophysiology, v42, p25, doi 10.1111/j.1469-8986.2005.00256.x"	11	126
+39126	"naatanen r, 2007, clin neurophysiol, v118, p2544, doi 10.1016/j.clinph.2007.04.026"	16	174
+39139	"naatanen r., 1992, attention brain func"	10	66
+39175	"nader k, 2000, nature, v406, p722, doi 10.1038/35021052"	28	376
+39384	"nassar mr, 2010, j neurosci, v30, p12366, doi 10.1523/jneurosci.0822-10.2010"	11	188
+39385	"nassar mr, 2012, nat neurosci, v15, p1040, doi 10.1038/nn.3130"	16	226
+39971	"nieuwenhuis s, 2001, psychophysiology, v38, p752, doi 10.1017/s0048577201001111"	13	195
+39972	"nieuwenhuis s, 2002, cogn affect behav ne, v2, p19, doi 10.3758/cabn.2.1.19"	16	421
+39975	"nieuwenhuis s, 2004, cereb cortex, v14, p741, doi 10.1093/cercor/bhh034"	21	542
+39976	"nieuwenhuis s, 2004, neurosci biobehav r, v28, p441, doi 10.1016/j.neubiorev.2004.05.003"	30	686
+39978	"nieuwenhuis s, 2005, eur j neurosci, v21, p3161, doi 10.1111/j.1460-9568.2005.04152.x"	17	469
+39979	"nieuwenhuis s, 2005, neuroimage, v25, p1302, doi 10.1016/j.neuroimage.2004.12.043"	12	277
+39981	"nieuwenhuis s, 2005, psychol bull, v131, p510, doi 10.1037/0033-2909.131.4.510"	21	462
+40025	"niki h, 1979, brain res, v171, p213, doi 10.1016/0006-8993(79)90328-7"	12	337
+40078	"nissen mj, 1987, cognitive psychol, v19, p1, doi 10.1016/0010-0285(87)90002-8"	10	54
+40098	"niv y, 2007, psychopharmacology, v191, p507, doi 10.1007/s00213-006-0502-4"	20	441
+40100	"niv y, 2008, trends cogn sci, v12, p265, doi 10.1016/j.tics.2008.03.006"	22	505
+40101	"niv y, 2009, j math psychol, v53, p139, doi 10.1016/j.jmp.2008.12.005"	18	463
+40104	"niv y, 2012, j neurosci, v32, p551, doi 10.1523/jneurosci.5498-10.2012"	23	439
+40316	"nosofsky rm, 1986, j exp psychol gen, v115, p39, doi 10.1037/0096-3445.115.1.39"	10	90
+40482	"o'doherty j, 2001, nat neurosci, v4, p95"	14	297
+40483	"o'doherty j, 2003, j neurosci, v23, p7931"	10	268
+40485	"o'doherty j, 2004, science, v304, p452, doi 10.1126/science.1094285"	58	1209
+40487	"o'doherty jp, 2002, neuron, v33, p815, doi 10.1016/s0896-6273(02)00603-7"	10	274
+40488	"o'doherty jp, 2003, neuron, v38, p329, doi 10.1016/s0896-6273(03)00169-7"	61	1260
+40489	"o'doherty jp, 2004, curr opin neurobiol, v14, p769, doi 10.1016/j.conb.2004.10.016"	19	367
+40491	"o'doherty jp, 2007, ann ny acad sci, v1104, p35, doi 10.1196/annals.1390.022"	17	313
+40523	"o'reilly jx, 2013, p natl acad sci usa, v110, pe3660, doi 10.1073/pnas.1305373110"	13	159
+40533	"o'reilly rc, 2006, neural comput, v18, p283, doi 10.1162/089976606775093909"	12	270
+40849	"oldfield rc, 1971, neuropsychologia, v9, p97, doi 10.1016/0028-3932(71)90067-4"	34	295
+40875	"oliveira ftp, 2007, j cognitive neurosci, v19, p1994, doi 10.1162/jocn.2007.19.12.1994"	37	886
+41003	"onishi kh, 2005, science, v308, p255, doi 10.1126/science.1107621"	10	23
+41412	"packard mg, 2002, annu rev neurosci, v25, p563, doi 10.1146/annurev.neuro.25.112701.142937"	10	239
+41436	"padoa-schioppa c, 2006, nature, v441, p223, doi 10.1038/nature04676"	10	212
+41462	"pagnoni g, 2002, nat neurosci, v5, p97, doi 10.1038/nn802"	15	409
+42159	"pavlov i. p., 1927, conditioned reflexes"	34	545
+42237	"pearce j.m., 2010, attention ass learni, p11"	13	159
+42240	"pearce jm, 1980, psychol rev, v87, p532, doi 10.1037/0033-295x.87.6.532"	87	1315
+42243	"pearce jm, 1987, psychol rev, v94, p61, doi 10.1037/0033-295x.94.1.61"	13	166
+42251	"pearce jm, 1994, psychol rev, v101, p587, doi 10.1037/0033-295x.101.4.587"	10	135
+42335	"pedreira me, 2004, learn memory, v11, p579, doi 10.1101/lm.76904"	14	201
+42371	"peirce jw, 2007, j neurosci meth, v162, p8, doi 10.1016/j.jneumeth.2006.11.017"	10	63
+42418	"pelli dg, 1997, spatial vision, v10, p437, doi 10.1163/156856897x00366"	16	126
+42422	"pellicano e, 2012, trends cogn sci, v16, p504, doi 10.1016/j.tics.2012.08.009"	11	150
+42749	"pessiglione m, 2006, nature, v442, p1042, doi 10.1038/nature05051"	48	899
+42977	"pfabigan dm, 2011, psychophysiology, v48, p656, doi 10.1111/j.1469-8986.2010.01136.x"	13	385
+43054	"philiastides mg, 2010, neuroimage, v53, p221, doi 10.1016/j.neuroimage.2010.05.052"	12	316
+43468	"platt ml, 1999, nature, v400, p233, doi 10.1038/22268"	11	264
+43562	"poldrack ra, 2001, nature, v414, p546, doi 10.1038/35107080"	13	261
+43589	"polich j, 2007, clin neurophysiol, v118, p2128, doi 10.1016/j.clinph.2007.04.019"	31	468
+43762	"posner mi, 1980, q j exp psychol, v32, p3, doi 10.1080/00335558008248231"	15	199
+43820	"potts gf, 2006, j cognitive neurosci, v18, p1112, doi 10.1162/jocn.2006.18.7.1112"	24	659
+44009	"preuschoff k, 2006, neuron, v51, p381, doi 10.1016/j.neuron.2006.06.024"	10	183
+44011	"preuschoff k, 2008, j neurosci, v28, p2745, doi 10.1523/jneurosci.4286-07.2008"	15	192
+44012	"preuschoff k, 2011, front neurosci-switz, v5, doi 10.3389/fnins.2011.00115"	10	103
+44147	"proudfit gh, 2015, psychophysiology, v52, p449, doi 10.1111/psyp.12370"	26	547
+44160	"proulx t, 2012, trends cogn sci, v16, p285, doi 10.1016/j.tics.2012.04.002"	15	235
+44526	"radloff l s, 1977, applied psychological measurement, v1, p385, doi 10.1177/014662167700100306"	18	34
+44749	"rangel a, 2008, nat rev neurosci, v9, p545, doi 10.1038/nrn2357"	17	327
+44770	"rao rpn, 1999, nat neurosci, v2, p79, doi 10.1038/4580"	59	850
+44930	"rayburn-reeves rm, 2011, learn behav, v39, p125, doi 10.3758/s13420-010-0011-5"	11	12
+45080	"redgrave p, 1999, trends neurosci, v22, p146, doi 10.1016/s0166-2236(98)01373-3"	11	246
+45081	"redgrave p, 2006, nat rev neurosci, v7, p967, doi 10.1038/nrn2022"	11	263
+45143	"reeves rmr, 2013, j comp psychol, v127, p202, doi 10.1037/a0026311"	10	16
+45375	"rescorla r. a., 1972, classical condition, p64, doi 10.1101/gr.110528.110"	157	2180
+45389	"rescorla ra, 1970, learn motiv, v1, p372, doi 10.1016/0023-9690(70)90101-3"	11	204
+45426	"rescorla ra, 2000, j exp psychol anim b, v26, p428, doi 10.1037//0097-7403.26.4.428"	10	143
+45743	"ridderinkhof kr, 2004, science, v306, p443, doi 10.1126/science.1100301"	27	520
+45785	"rief w, 2015, curr opin psychiatr, v28, p378, doi 10.1097/yco.0000000000000184"	12	61
+45984	"rizzolatti g, 2004, annu rev neurosci, v27, p169, doi 10.1146/annurev.neuro.27.070203.144230"	10	92
+46245	"rodriguez pf, 2006, hum brain mapp, v27, p306, doi 10.1002/hbm.20186"	14	288
+46327	"roesch mr, 2007, nat neurosci, v10, p1615, doi 10.1038/nn2013"	19	467
+46332	"roesch mr, 2012, eur j neurosci, v35, p1190, doi 10.1111/j.1460-9568.2011.07986.x"	18	387
+46546	"rolls et, 2008, cereb cortex, v18, p652, doi 10.1093/cercor/bhm097"	11	222
+46785	"rosenberg m., 1965, soc adolescent self"	13	29
+47213	"ruble dn, 1988, j pers soc psychol, v55, p78, doi 10.1037/0022-3514.55.1.78"	21	79
+47237	"ruchsow m, 2002, neurosci lett, v325, p203, doi 10.1016/s0304-3940(02)00288-4"	12	350
+47445	"rushworth mfs, 2004, trends cogn sci, v8, p410, doi 10.1016/j.tics.2004.07.009"	12	322
+47449	"rushworth mfs, 2008, nat neurosci, v11, p389, doi 10.1038/nn2066"	21	406
+47451	"rushworth mfs, 2011, neuron, v70, p1054, doi 10.1016/j.neuron.2011.05.014"	10	181
+47536	"rutledge rb, 2009, j neurosci, v29, p15104, doi 10.1523/jneurosci.3524-09.2009"	10	182
+47537	"rutledge rb, 2010, j neurosci, v30, p13525, doi 10.1523/jneurosci.1747-10.2010"	16	323
+47692	"saffran jr, 1996, science, v274, p1926, doi 10.1126/science.274.5294.1926"	18	132
+47939	"sambrook td, 2015, psychol bull, v141, p213, doi 10.1037/bul0000006"	32	671
+47940	"sambrook td, 2016, neuroimage, v124, p276, doi 10.1016/j.neuroimage.2015.07.032"	12	270
+47945	"samejima k, 2005, science, v310, p1337, doi 10.1126/science.1115270"	18	453
+48065	"sanfey ag, 2003, science, v300, p1755, doi 10.1126/science.1082976"	10	176
+48226	"sato a, 2005, neuroreport, v16, p407, doi 10.1097/00001756-200503150-00020"	13	414
+48626	"schiller d, 2010, nature, v463, p49, doi 10.1038/nature08637"	13	172
+48791	"schmidt ra, 1992, psychol sci, v3, p207, doi 10.1111/j.1467-9280.1992.tb00029.x"	11	47
+48992	"schonberg t, 2007, j neurosci, v27, p12860, doi 10.1523/jneurosci.2496-07.2007"	19	474
+49190	"schultz w, 1997, curr opin neurobiol, v7, p191, doi 10.1016/s0959-4388(97)80007-4"	13	271
+49191	"schultz w, 1997, science, v275, p1593, doi 10.1126/science.275.5306.1593"	169	3048
+49193	"schultz w, 1998, j neurophysiol, v80, p1, doi 10.1152/jn.1998.80.1.1"	56	1096
+49197	"schultz w, 2000, annu rev neurosci, v23, p473, doi 10.1146/annurev.neuro.23.1.473"	66	1143
+49199	"schultz w, 2000, nat rev neurosci, v1, p199, doi 10.1038/35044563"	11	253
+49201	"schultz w, 2002, neuron, v36, p241, doi 10.1016/s0896-6273(02)00967-4"	35	856
+49204	"schultz w, 2006, annu rev psychol, v57, p87, doi 10.1146/annurev.psych.56.091103.070229"	21	358
+49209	"schultz w, 2010, behav brain funct, v6, doi 10.1186/1744-9081-6-24"	13	230
+49210	"schultz w, 2013, curr opin neurobiol, v23, p229, doi 10.1016/j.conb.2012.11.012"	15	222
+49215	"schultz w, 2016, nat rev neurosci, v17, p183, doi 10.1038/nrn.2015.26"	18	431
+49372	"schwarz g, 1978, ann stat, v6, p461, doi 10.1214/aos/1176344136"	17	245
+49743	"semlitsch hv, 1986, psychophysiology, v23, p695, doi 10.1111/j.1469-8986.1986.tb00696.x"	12	110
+49851	"seth ak, 2013, trends cogn sci, v17, p565, doi 10.1016/j.tics.2013.09.007"	10	166
+49866	"sevenster d, 2013, science, v339, p830, doi 10.1126/science.1231357"	20	265
+49870	"sevenster d, 2014, learn memory, v21, p580, doi 10.1101/lm.035493.114"	12	154
+49888	"seymour b, 2004, nature, v429, p664, doi 10.1038/nature02581"	19	432
+49890	"seymour b, 2007, j neurosci, v27, p4826, doi 10.1523/jneurosci.0400-07.2007"	19	372
+49907	"shackman aj, 2011, nat rev neurosci, v12, p154, doi 10.1038/nrn2994"	13	236
+49924	"shadmehr r, 2010, annu rev neurosci, v33, p89, doi 10.1146/annurev-neuro-060909-153135"	13	74
+50210	"shenhav a, 2013, neuron, v79, p217, doi 10.1016/j.neuron.2013.07.007"	18	323
+50505	"shohamy d, 2010, trends cogn sci, v14, p464, doi 10.1016/j.tics.2010.08.002"	11	191
+51565	"snodgrass jg, 1988, j exp psychol gen, v117, p34, doi 10.1037/0096-3445.117.1.34"	10	63
+51939	"spanier gb, 1976, j marriage fam, v38, p15, doi 10.2307/350547"	11	35
+52028	"spelke es, 1992, psychol rev, v99, p605, doi 10.1037/0033-295x.99.4.605"	10	59
+52418	"stahl ae, 2015, science, v348, p91, doi 10.1126/science.aaa3799"	11	85
+52476	"stangor c, 1992, psychol bull, v111, p42, doi 10.1037/0033-2909.111.1.42"	15	29
+52691	"steinberg ee, 2013, nat neurosci, v16, p966, doi 10.1038/nn.3413"	23	375
+52782	"stephan ke, 2009, neuroimage, v46, p1004, doi 10.1016/j.neuroimage.2009.03.025"	19	272
+53459	"summerfield c, 2008, nat neurosci, v11, p1004, doi 10.1038/nn.2163"	19	254
+53460	"summerfield c, 2008, neuron, v59, p336, doi 10.1016/j.neuron.2008.05.021"	10	227
+53461	"summerfield c, 2009, trends cogn sci, v13, p403, doi 10.1016/j.tics.2009.06.003"	12	252
+53526	"suri re, 1999, neuroscience, v91, p871, doi 10.1016/s0306-4522(98)00697-6"	10	202
+53588	"sutton r. s., 1988, machine learning, v3, p9, doi 10.1007/bf00115009"	21	497
+53597	"sutton r., 1998, reinforcement learni"	106	1947
+53599	"sutton r.s., 1998, reinforcement learni, v1"	10	223
+53602	"sutton rs, 1981, psychol rev, v88, p135, doi 10.1037/0033-295x.88.2.135"	24	458
+53605	"sutton rs, 1990, learning computation, p497"	15	400
+53623	"suzuki a, 2004, j neurosci, v24, p4787, doi 10.1523/jneurosci.5491-03.2004"	15	205
+53937	"talairach j. t., 1988, coplanar stereotaxic"	11	146
+53964	"talmi d, 2012, neuroimage, v59, p635, doi 10.1016/j.neuroimage.2011.06.051"	10	299
+53966	"talmi d, 2013, j neurosci, v33, p8264, doi 10.1523/jneurosci.5695-12.2013"	19	500
+54020	"tanaka sc, 2004, nat neurosci, v7, p887, doi 10.1038/nn1279"	10	237
+54680	"thorndike el, 1911, animal intelligence"	11	252
+54862	"tobler pn, 2003, j neurosci, v23, p10402"	15	364
+54863	"tobler pn, 2005, science, v307, p1642, doi 10.1126/science.1105370"	31	698
+54864	"tobler pn, 2006, j neurophysiol, v95, p301"	12	293
+54919	"todorovic a, 2011, j neurosci, v31, p9118, doi 10.1523/jneurosci.1425-11.2011"	11	246
+54920	"todorovic a, 2012, j neurosci, v32, p13389, doi 10.1523/jneurosci.2227-12.2012"	11	191
+54960	"tolman ec, 1948, psychol rev, v55, p189, doi 10.1037/h0061626"	11	186
+54961	"tom sm, 2007, science, v315, p515, doi 10.1126/science.1134239"	10	221
+55298	"tremblay l, 1999, nature, v398, p704"	11	222
+55359	"tricomi em, 2004, neuron, v41, p281, doi 10.1016/s0896-6273(03)00848-1"	16	381
+55485	"tseng yw, 2007, j neurophysiol, v98, p54, doi 10.1152/jn.00266.2007"	14	72
+55641	"turner dc, 2004, cereb cortex, v14, p872, doi 10.1093/cercor/bhh046"	10	170
+55677	"tversky a, 1974, science, v185, p1124, doi 10.1126/science.185.4157.1124"	15	47
+55688	"tversky a, 1992, j risk uncertainty, v5, p297, doi 10.1007/bf00122574"	14	204
+55828	"ulanovsky n, 2003, nat neurosci, v6, p391, doi 10.1038/nn1032"	11	175
+55848	"ullsperger m, 2003, j neurosci, v23, p4308, doi 10.1523/jneurosci.23-10-04308.2003"	10	245
+55855	"ullsperger m, 2014, physiol rev, v94, p35, doi 10.1152/physrev.00041.2012"	10	222
+55856	"ullsperger m, 2014, trends cogn sci, v18, p259, doi 10.1016/j.tics.2014.02.009"	17	353
+55872	"umbricht d, 2005, schizophr res, v76, p1, doi 10.1016/j.schres.2004.12.002"	12	171
+56191	"van de vijver i, 2011, j cognitive neurosci, v23, p4106, doi 10.1162/jocn_a_00110"	10	233
+56231	"van den bos w, 2012, cereb cortex, v22, p1247, doi 10.1093/cercor/bhr198"	14	192
+56517	"van schie ht, 2004, nat neurosci, v7, p549, doi 10.1038/nn1239"	11	241
+57438	"wacongne c, 2011, p natl acad sci usa, v108, p20754, doi 10.1073/pnas.1117807108"	18	307
+57439	"wacongne c, 2012, j neurosci, v32, p3665, doi 10.1523/jneurosci.5003-11.2012"	17	307
+57461	"waelti p, 2001, nature, v412, p43, doi 10.1038/35083500"	43	832
+57512	"wagner a.r., 1981, p5"	18	221
+57746	"walsh mm, 2011, p natl acad sci usa, v108, p19048, doi 10.1073/pnas.1117189108"	14	475
+57747	"walsh mm, 2012, neurosci biobehav r, v36, p1870, doi 10.1016/j.neubiorev.2012.05.008"	48	1103
+57809	"waltz ja, 2007, biol psychiat, v62, p756, doi 10.1016/j.biopsych.2006.09.042"	10	171
+58151	"watkins cjch, 1992, mach learn, v8, p279, doi 10.1007/bf00992698"	12	195
+58180	"watson d, 1988, j pers soc psychol, v54, p1063, doi 10.1037/0022-3514.54.6.1063"	23	111
+59409	"wills aj, 2007, j cognitive neurosci, v19, p843, doi 10.1162/jocn.2007.19.5.843"	11	122
+59591	"winkler i, 1996, brain res, v742, p239, doi 10.1016/s0006-8993(96)01008-6"	11	138
+59604	"winkler i, 2007, j psychophysiol, v21, p147, doi 10.1027/0269-8803.21.34.147"	16	172
+59682	"wise ra, 2004, nat rev neurosci, v5, p483, doi 10.1038/nrn1406"	10	248
+59740	"wittmann bc, 2005, neuron, v45, p459, doi 10.1016/j.neuron.2005.01.010"	18	403
+59848	"wolpert dm, 1995, science, v269, p1880, doi 10.1126/science.7569931"	18	101
+59851	"wolpert dm, 1998, neural networks, v11, p1317, doi 10.1016/s0893-6080(98)00066-5"	10	64
+59854	"wolpert dm, 2001, curr biol, v11, pr729, doi 10.1016/s0960-9822(01)00432-8"	11	83
+60165	"wu y, 2009, brain res, v1286, p114, doi 10.1016/j.brainres.2009.06.032"	22	553
+60242	"wynn k, 1992, nature, v358, p749, doi 10.1038/358749a0"	13	31
+60339	"yacubian j, 2006, j neurosci, v26, p9530, doi 10.1523/jneurosci.2915-06.2006"	10	220
+60491	"yasuda a, 2004, neuroreport, v15, p2561, doi 10.1097/00001756-200411150-00027"	16	396
+60580	"yeung n, 2004, j neurosci, v24, p6258, doi 10.1523/jneurosci.4537-03.2004"	41	978
+60581	"yeung n, 2004, psychol rev, v111, p931, doi [10.1037/0033-295x.111.4.931 10.1037/0033-295x.111.4.931]"	26	594
+60583	"yeung n, 2005, cereb cortex, v15, p535, doi 10.1093/cercor/bhh153"	38	894
+60604	"yin hh, 2004, eur j neurosci, v19, p181, doi 10.1111/j.1460-9568.2004.03095.x"	10	340
+60768	"yu aj, 2005, neuron, v46, p681, doi 10.1016/j.neuron.2005.04.026"	31	631
+60781	"yu rj, 2006, neuroreport, v17, p1747, doi 10.1097/01.wnr.0000239960.98813.50"	13	301
+61216	"zhou zh, 2010, neuropsychologia, v48, p3606, doi 10.1016/j.neuropsychologia.2010.08.010"	10	261
