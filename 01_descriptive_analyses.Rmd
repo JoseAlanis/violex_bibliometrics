@@ -12,7 +12,11 @@ Created with `r R.version.string`
 knitr::opts_chunk$set(echo = TRUE)
 
 # set working directory
-path <- dirname(rstudioapi::getActiveDocumentContext()$path)
+if(interactive()){
+  path <- dirname(rstudioapi::getSourceEditorContext()$path)
+} else {
+  path <- normalizePath('./')
+}
 setwd(path)
 
 ```
@@ -26,7 +30,7 @@ require(dplyr)
 require(bibliometrix)
 
 # options for plotting
-windowsFonts(Mukta=windowsFont("Mukta"))
+# windowsFonts(Mukta=windowsFont("Mukta"))
 require(ggplot2)
 font_fam <- 'Mukta'
 
@@ -285,6 +289,80 @@ ggsave(filename = './results/figures/Fig_2.tiff',
        plot = cited_plot, 
        width = 16.0, height = 11.0,  units = 'cm', dpi = 1200)
 ```
+
+# Compute results for Supplemental Figure 1
+
+```{r, fig.align = 'center', fig.width = 10, fig.height = 6}
+# compute cumulative of citations
+times_cited <- M_new %>%
+        select(AU, TC) %>%
+        arrange(desc(TC)) %>%
+        mutate(cumsum_tc = cumsum(TC)) %>%
+        mutate(index = 1:nrow(M_new))
+
+# compute thresholds for cumulative distribution of citations in the data set
+# at the "traditional" cut-off 80 %, and more conservative cut-offs 90 % and 95 %
+threshold_80p <- max(times_cited$cumsum_tc) * 0.85
+threshold_90p <- max(times_cited$cumsum_tc) * 0.90
+threshold_95p <- max(times_cited$cumsum_tc) * 0.95
+
+min_citations_80p <- min(times_cited[times_cited$cumsum_tc < threshold_80p, 'TC'])
+min_citations_90p <- min(times_cited[times_cited$cumsum_tc < threshold_90p, 'TC'])
+min_citations_95p <- min(times_cited[times_cited$cumsum_tc < threshold_95p, 'TC'])
+
+# create plot showing citation thresholds
+citation_threshold <- ggplot(data = times_cited, aes(x = index, y = TC)) +
+        geom_segment(aes(x = -Inf, y = 0,
+                         xend = -Inf, yend = 1600),
+                     color = 'black', size = rel(0.5), linetype = 1) +
+        geom_segment(aes(x = 1, y = -Inf, xend = 1400, yend = -Inf),
+                     color = 'black', size = rel(0.5), linetype = 1) +
+        scale_x_continuous(breaks = c(1, 200, 400, 600, 800, 1000, 1200, 1400))+
+        scale_y_continuous(breaks = c(1, 200, 400, 600, 800, 1000, 1200, 1400, 1600))+
+        geom_point(size = 0.8) +
+        geom_line(aes(group = 1)) +
+        geom_segment(aes(x = which.min(times_cited[times_cited$cumsum_tc < threshold_80p, 'TC']),
+                         xend = which.min(times_cited[times_cited$cumsum_tc < threshold_80p, 'TC']),
+                         y = 0, yend = max(times_cited$TC)),
+                         size = 0.5) +
+        geom_segment(aes(x = which.min(times_cited[times_cited$cumsum_tc < threshold_95p, 'TC']),
+                         xend = which.min(times_cited[times_cited$cumsum_tc < threshold_95p, 'TC']),
+                         y = 0, yend = max(times_cited$TC)),
+                     size = 0.5) +
+        annotate("text", x = which.min(times_cited[times_cited$cumsum_tc < threshold_80p, 'TC']) + 90,
+                 y = 1525, label = paste0("80% threshold\n", min_citations_80p, " citations")) +
+        annotate("text", x = which.min(times_cited[times_cited$cumsum_tc < threshold_95p, 'TC']) + 90,
+                 y = 1525, label = paste0("95% threshold\n", min_citations_95p, " citations")) +
+        theme(plot.margin = unit(c(10, 10, 10, 10), 'pt'),
+              plot.title = element_text(color = 'black', size = 18, face = 'bold',
+                                        hjust = 0, family = 'Mukta'),
+              axis.title.x = element_text(color = 'black', size = 16,
+                                          margin = margin(t = 10), face = 'bold',
+                                          family = 'Mukta'),
+              axis.title.y = element_text(color = 'black', size = 16,
+                                          margin = margin(r = 10), face = 'bold',
+                                          family = 'Mukta'),
+              axis.text.x = element_text(color = 'black', size = 14, family = 'Mukta'),
+              axis.text.y = element_text(color = 'black', size = 14, family = 'Mukta'),
+              panel.background = element_rect(fill = 'white'),
+              panel.grid.major.x = element_line(size = 0.5, linetype = 'solid',
+                                                colour = "gray98"),
+              panel.grid.major.y = element_line(size = 0.5, linetype = 'solid',
+                                                colour = "gray98"),
+              panel.grid.minor = element_blank(),
+              strip.text = element_blank(),
+              strip.background = element_blank(),
+              legend.position='right',
+              legend.title = element_blank(),
+              legend.text = element_text(size = 8),
+              panel.spacing = unit(1, "lines")) +
+        labs(y = 'Times cited', x = 'Publication ID',
+             title = 'Number of citations by publication'); citation_threshold
+
+```
+
+
+
 # Compute results for Figure 2b
 
 First get thesaurus for keywords (i.e., contains info about misspelled keywords
@@ -384,7 +462,7 @@ trends_plot <- ggplot(data = trend_topics,
         legend.text = element_text(size = 8),
         panel.spacing = unit(1, "lines")) +
   labs(y = 'Occurrences', x = 'Year of appearance', 
-       title = 'Trend topics'); trend_topics
+       title = 'Trend topics'); trends_plot
 ggsave(filename = './results/figures/Fig_3.tiff',
        plot = trends_plot, 
        width = 18, height = 15,  units = 'cm', dpi = 1200)
