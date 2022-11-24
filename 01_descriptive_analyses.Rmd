@@ -323,16 +323,16 @@ citation_threshold <- ggplot(data = times_cited, aes(x = index, y = TC)) +
         geom_line(aes(group = 1)) +
         geom_segment(aes(x = which.min(times_cited[times_cited$cumsum_tc < threshold_80p, 'TC']),
                          xend = which.min(times_cited[times_cited$cumsum_tc < threshold_80p, 'TC']),
-                         y = 0, yend = max(times_cited$TC)),
+                         y = 0, yend = 1500),
                          size = 0.5) +
         geom_segment(aes(x = which.min(times_cited[times_cited$cumsum_tc < threshold_95p, 'TC']),
                          xend = which.min(times_cited[times_cited$cumsum_tc < threshold_95p, 'TC']),
-                         y = 0, yend = max(times_cited$TC)),
+                         y = 0, yend = 1000),
                      size = 0.5) +
-        annotate("text", x = which.min(times_cited[times_cited$cumsum_tc < threshold_80p, 'TC']) + 90,
+        annotate("label", x = which.min(times_cited[times_cited$cumsum_tc < threshold_80p, 'TC']) + 90,
                  y = 1525, label = paste0("80% threshold\n", min_citations_80p, " citations")) +
-        annotate("text", x = which.min(times_cited[times_cited$cumsum_tc < threshold_95p, 'TC']) + 90,
-                 y = 1525, label = paste0("95% threshold\n", min_citations_95p, " citations")) +
+        annotate("label", x = which.min(times_cited[times_cited$cumsum_tc < threshold_95p, 'TC']) + 90,
+                 y = 1025, label = paste0("95% threshold\n", min_citations_95p, " citations")) +
         theme(plot.margin = unit(c(10, 10, 10, 10), 'pt'),
               plot.title = element_text(color = 'black', size = 18, face = 'bold',
                                         hjust = 0, family = 'Mukta'),
@@ -358,6 +358,9 @@ citation_threshold <- ggplot(data = times_cited, aes(x = index, y = TC)) +
               panel.spacing = unit(1, "lines")) +
         labs(y = 'Times cited', x = 'Publication ID',
              title = 'Number of citations by publication'); citation_threshold
+ggsave(filename = './results/figures/Fig_S1.tiff',
+       plot = citation_threshold,
+       width = 16.0, height = 11.0,  units = 'cm', dpi = 1200)
 
 ```
 
