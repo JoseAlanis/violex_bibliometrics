@@ -290,7 +290,7 @@ ggsave(filename = './results/figures/Fig_2.tiff',
        width = 16.0, height = 11.0,  units = 'cm', dpi = 1200)
 ```
 
-# Compute results for Supplemental Figure 1
+# Compute results for citation thresholds figure
 
 ```{r, fig.align = 'center', fig.width = 10, fig.height = 6}
 # compute cumulative of citations
@@ -358,7 +358,7 @@ citation_threshold <- ggplot(data = times_cited, aes(x = index, y = TC)) +
               panel.spacing = unit(1, "lines")) +
         labs(y = 'Times cited', x = 'Publication ID',
              title = 'Number of citations by publication'); citation_threshold
-ggsave(filename = './results/figures/Fig_S1.tiff',
+ggsave(filename = './results/figures/citation thresholds.tiff',
        plot = citation_threshold,
        width = 16.0, height = 11.0,  units = 'cm', dpi = 1200)
 
