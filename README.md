@@ -1,9 +1,8 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-# Expectation violation: A bibliometric review
+# Expectation violations, expectation change, and expectation persistence: The scientific landscape as revealed by bibliometric network analyses
 
-This repository contains supplemental materials for our paper **Expectation violation:
-The scientific landscape of expectation violation research as revealed by bibliometric network analyses**
+This repository contains supplemental materials for our paper **Expectation violations, expectation change, and expectation persistence: The scientific landscape as revealed by bibliometric network analyses**
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
